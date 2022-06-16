@@ -1,6 +1,6 @@
-# Getting Started with Create React App and Fluent UI
+# Getting Started with Create React TextPage and Fluent UI
 
-This is a [Create React App](https://github.com/facebook/create-react-app) based repo that comes with Fluent UI pre-installed!
+This is a [Create React TextPage](https://github.com/facebook/create-react-app) based repo that comes with Fluent UI pre-installed!
 
 ## Available Scripts
 
@@ -41,7 +41,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+You can learn more in the [Create React TextPage documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 

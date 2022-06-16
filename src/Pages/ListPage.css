@@ -1,0 +1,28 @@
+#container {
+  height: -webkit-fill-available;
+}
+
+.header {
+  width: 100%;
+}
+
+.head-text {
+  width: 80%;
+  text-align: left;
+  
+}
+
+.head-text h1 {
+  font-size: 3em;
+  margin: 10px;
+}
+
+.head-text p {
+  font-size: 15px;
+  margin: 10px;
+  line-height: 1.25em;
+}
+
+.summaries {
+  width: 80%;
+}

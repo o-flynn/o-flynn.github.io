@@ -1,0 +1,17 @@
+#container {
+  height: -webkit-fill-available;
+}
+
+.header {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.text {
+  height: 80%;
+}
+
+.TextPage {
+  text-align: center;
+  position: relative;
+}

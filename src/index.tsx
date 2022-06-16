@@ -1,8 +1,14 @@
-import React from 'react';
 import ReactDOM from 'react-dom';
-import { App } from './App';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { mergeStyles } from '@fluentui/react';
 import reportWebVitals from './reportWebVitals';
+import './index.css';
+
+import TextPage from './Pages/TextPage';
+import ListPage from './Pages/ListPage';
+import { Landing } from './Pages/Landing';
+
+export const pages = ["professional", "academic", "personal"]
 
 // Inject some global styles
 mergeStyles({
@@ -13,7 +19,16 @@ mergeStyles({
   },
 });
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(
+  <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Landing />} />
+      <Route path="professional" element={<ListPage entryJSON='work'/>} />
+      <Route path="academic" element={<ListPage entryJSON='work'/>} />
+      <Route path="personal" element={<TextPage contentJSON='personal'/>} />
+    </Routes>
+  </BrowserRouter>,
+  document.getElementById('root'));
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

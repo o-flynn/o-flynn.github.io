@@ -1,0 +1,23 @@
+.TextBox {
+    width: 80vw;
+    height: 100%;
+    background-color: #ffffffba;;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.text-content {
+    text-align: left;
+    
+    color: rgb(65, 65, 65);
+    font-size: 1.2em;
+}
+
+.text-box-img-container {
+    float: left;
+    width: 250px;
+    height: 300px;
+    overflow: hidden;
+    margin-right: 27.5px;
+    margin: 15px;
+}

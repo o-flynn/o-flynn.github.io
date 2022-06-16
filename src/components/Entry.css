@@ -1,0 +1,38 @@
+a.entry-link {
+    display: contents;
+    -ms-user-select: text;
+    -webkit-user-select: text;
+    user-select: text;
+}
+
+a.entry-link div.container {
+    transition-duration: .3s;
+}
+
+a.entry-link div.container:hover {
+    background-color: white;
+    box-shadow: 0 0 20px -10px #000000e0;
+    transition-duration: .3s;
+}
+
+div.container {
+    min-height: 150px;
+    width: 100%;
+    margin: 15px 0;
+    background-color: #ffffffba;
+    border-radius: 8px;
+}
+
+.img-container {
+    float: left;
+    width: 130px;
+    height: 130px;
+    overflow: hidden;
+    margin: 22.5px 15px;
+}
+
+div.container p {
+    margin: 15px 25px;
+    text-align: left;
+    color: rgb(65, 65, 65);
+}
