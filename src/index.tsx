@@ -1,5 +1,5 @@
 import ReactDOM from 'react-dom';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import { mergeStyles } from '@fluentui/react';
 import reportWebVitals from './reportWebVitals';
 import './index.css';
@@ -20,14 +20,14 @@ mergeStyles({
 });
 
 ReactDOM.render(
-  <BrowserRouter>
+  <HashRouter>
     <Routes>
       <Route path="/" element={<Landing />} />
       <Route path="professional" element={<ListPage entryJSON='work'/>} />
       <Route path="academic" element={<ListPage entryJSON='work'/>} />
       <Route path="personal" element={<TextPage contentJSON='personal'/>} />
     </Routes>
-  </BrowserRouter>,
+  </HashRouter>,
   document.getElementById('root'));
 
 // If you want to start measuring performance in your app, pass a function

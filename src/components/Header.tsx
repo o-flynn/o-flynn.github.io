@@ -1,5 +1,5 @@
 import { CSSProperties, useState } from 'react';
-import { useLocation } from 'react-router-dom';
+import { useLocation, Link } from 'react-router-dom';
 import { pages } from '../index';
 import './Header.css';
 
@@ -32,14 +32,14 @@ function Header(props: HeaderProps) {
   return (
     <div className="Header" style={styles}>
       {!props.isLandingPage && (<div className='buttons-container'>
-        <a href='/'><button id='home' type='button' className='round-button'></button></a>
+        <Link to='/'><button id='home' type='button' className='round-button'></button></Link>
         <div className='socials'>
           <button id='socials-button' type='button' className='round-button' onClick={toggleSocialsMenu}></button>
           <div className={`socials-menu ${socialsMenuExpanded ? 'expanded' : 'collapsed'}`}>
-            <a href='mailto:oaflynn98@gmail.com'><button id='email-circle' className='round-button'></button></a>
-            <a href='https://www.linkedin.com/in/olivia-aiden-flynn/'><button id='linkedin-circle' className='round-button'></button></a>
-            <a href='https://github.com/flynnolivia'><button id='github-circle' className='round-button'></button></a>
-            <a href='https://twitter.com/oaflynn_dev'><button id='twitter-circle' className='round-button'></button></a>
+            <Link to='mailto:oaflynn98@gmail.com'><button id='email-circle' className='round-button'></button></Link>
+            <Link to='https://www.linkedin.com/in/olivia-aiden-flynn/'><button id='linkedin-circle' className='round-button'></button></Link>
+            <Link to='https://github.com/flynnolivia'><button id='github-circle' className='round-button'></button></Link>
+            <Link to='https://twitter.com/oaflynn_dev'><button id='twitter-circle' className='round-button'></button></Link>
           </div>
         </div>
       </div>)}
@@ -51,10 +51,10 @@ function Header(props: HeaderProps) {
                 <div className='basic-info'>
                   <h1>OLIVIA A. FLYNN</h1>
                   <ul>
-                    <li id='email'><a href='mailto:oaflynn98@gmail.com'>oaflynn98@gmail.com</a></li>
-                    <li id='linkedin'><a href='https://www.linkedin.com/in/olivia-aiden-flynn/'>olivia-aiden-flynn</a></li>
-                    <li id='github'><a href='https://github.com/flynnolivia'>flynnolivia</a></li>
-                    <li id='twitter'><a href='https://twitter.com/oaflynn_dev'>@oaflynn_dev</a></li>
+                    <li id='email'><Link to='mailto:oaflynn98@gmail.com'>oaflynn98@gmail.com</Link></li>
+                    <li id='linkedin'><Link to='https://www.linkedin.com/in/olivia-aiden-flynn/'>olivia-aiden-flynn</Link></li>
+                    <li id='github'><Link to='https://github.com/flynnolivia'>flynnolivia</Link></li>
+                    <li id='twitter'><Link to='https://twitter.com/oaflynn_dev'>@oaflynn_dev</Link></li>
                   </ul>
                 </div>
             </div>
@@ -62,11 +62,11 @@ function Header(props: HeaderProps) {
               <div className='landing-nav'>
                 {pages.map(page => {
                   return (
-                    <a href={`/${page}`}>
+                    <Link to={`/${page}`}>
                       <div className='button-background'>
                         <button type='button'>{page.toUpperCase()}</button>
                       </div>
-                    </a>);
+                    </Link>);
                 })}
               </div>
             </div>
@@ -80,9 +80,9 @@ function Header(props: HeaderProps) {
               .map((page, i) => {
                 return (
                   <span className='link-text'>
-                    <a href={`/${page}`}>
+                    <Link to={`/${page}`}>
                       {page}
-                    </a>
+                    </Link>
                     {i == pages.length-2 ? '' : ' | '}
                   </span>
                 )})}
