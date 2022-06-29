@@ -23,7 +23,7 @@
   line-height: 1.25em;
 }
 
-.summaries {
+.summaries, .entries {
   width: 80%;
 }
 

@@ -345,6 +345,7 @@
 
     .row-two {
         align-items: flex-start;
+        margin-top: -5%;
     }
 
     .row-two button {
@@ -360,5 +361,12 @@
     .row-one img {
         height: 190px;
         width: 190px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .row-one img {
+        height: 290px;
+        width: 290px;
     }
 }
