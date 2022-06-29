@@ -36,10 +36,10 @@ function Header(props: HeaderProps) {
         <div className='socials'>
           <button id='socials-button' type='button' className='round-button' onClick={toggleSocialsMenu}></button>
           <div className={`socials-menu ${socialsMenuExpanded ? 'expanded' : 'collapsed'}`}>
-            <Link to='mailto:oaflynn98@gmail.com'><button id='email-circle' className='round-button'></button></Link>
-            <Link to='https://www.linkedin.com/in/olivia-aiden-flynn/'><button id='linkedin-circle' className='round-button'></button></Link>
-            <Link to='https://github.com/flynnolivia'><button id='github-circle' className='round-button'></button></Link>
-            <Link to='https://twitter.com/oaflynn_dev'><button id='twitter-circle' className='round-button'></button></Link>
+            <a href='mailto:oaflynn98@gmail.com' target='_blank'><button id='email-circle' className='round-button'></button></a>
+            <a href='https://www.linkedin.com/in/olivia-aiden-flynn/' target='_blank'><button id='linkedin-circle' className='round-button'></button></a>
+            <a href='https://github.com/flynnolivia' target='_blank'><button id='github-circle' className='round-button'></button></a>
+            <a href='https://twitter.com/oaflynn_dev' target='_blank'><button id='twitter-circle' className='round-button'></button></a>
           </div>
         </div>
       </div>)}
@@ -51,10 +51,10 @@ function Header(props: HeaderProps) {
                 <div className='basic-info'>
                   <h1>OLIVIA A. FLYNN</h1>
                   <ul>
-                    <li id='email'><Link to='mailto:oaflynn98@gmail.com'>oaflynn98@gmail.com</Link></li>
-                    <li id='linkedin'><Link to='https://www.linkedin.com/in/olivia-aiden-flynn/'>olivia-aiden-flynn</Link></li>
-                    <li id='github'><Link to='https://github.com/flynnolivia'>flynnolivia</Link></li>
-                    <li id='twitter'><Link to='https://twitter.com/oaflynn_dev'>@oaflynn_dev</Link></li>
+                    <li id='email'><a href='mailto:oaflynn98@gmail.com' target='_blank'>oaflynn98@gmail.com</a></li>
+                    <li id='linkedin'><a href='https://www.linkedin.com/in/olivia-aiden-flynn/' target='_blank'>olivia-aiden-flynn</a></li>
+                    <li id='github'><a href='https://github.com/flynnolivia' target='_blank'>flynnolivia</a></li>
+                    <li id='twitter'><a href='https://twitter.com/oaflynn_dev' target='_blank'>@oaflynn_dev</a></li>
                   </ul>
                 </div>
             </div>
