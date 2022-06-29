@@ -6,7 +6,6 @@
     width: 100%;
     height: 100%;
     z-index: -1;
-    position: relative;
     object-fit: cover;
 }
 
@@ -23,17 +22,21 @@
     position: absolute;
     left: 0;
     right: 0;
+    z-index: 1;
+    height: fit-content;
 }
 
 .row-one {
     grid-row: 1;
     padding-top: 8vh;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .row-one img {
     border-radius: 10%;
-    height: 275px;
-    width: 275px;
+    height: 250px;
+    width: 250px;
     outline: 1px solid black;
     outline-offset: -5px;
 }
@@ -41,7 +44,6 @@
 .basic-info {
     display: inline-block;
     vertical-align: top;
-    margin-left: 75px;
     color: white;
 }
 
@@ -110,7 +112,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 3vh;
 }
 
 .row-two a {
@@ -291,4 +292,73 @@
 
 .link-text a:hover {
     display: unset;
+}
+
+@media screen {
+    .landing-page .header-wrapper {
+        clip-path: polygon(50% 100%, 0px 50%, 0px 0px, 100% 0px, 100% 50%);
+    }
+
+    :not(.landing-page) .header-wrapper {
+        clip-path: polygon(50% 100%, 0px 65%, 0px 0px, 100% 0px, 100% 65%);
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .landing-page  .header-wrapper {
+        clip-path: polygon(50% 100%, 0px 80%, 0px 0px, 100% 0px, 100% 80%);
+    }
+    .row-one {
+        display: grid;
+        padding-top: 20px;
+    }
+
+    .row-one img {
+        height: 200px;
+        width: 200px;
+        margin: auto;
+    }
+
+    .row-one .basic-info {
+        width: 100vw;
+    }
+
+    .basic-info h1 {
+        font-size: 2.5em;
+        margin-bottom: 0;
+    }
+
+    .basic-info ul {
+        font-size: 1em;
+        display: grid;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .basic-info li {
+        margin: 0;
+    }
+
+    #github, #twitter {
+        grid-row: 2;
+    }
+
+    .row-two {
+        align-items: flex-start;
+    }
+
+    .row-two button {
+        font-size: 1.3em;
+    }
+
+    .link-nav {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (min-width: 585px) and (max-width: 729px) {
+    .row-one img {
+        height: 190px;
+        width: 190px;
+    }
 }

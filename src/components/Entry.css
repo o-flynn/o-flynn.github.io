@@ -36,3 +36,18 @@ div.container p {
     text-align: left;
     color: rgb(65, 65, 65);
 }
+
+strong {
+    font-size: medium;
+    text-decoration: dashed;
+}
+
+@media screen and (max-width: 729px) {
+    .img-frame {
+      display: none;
+    }
+
+    div.container {
+        width: 90vw;
+    }
+  }

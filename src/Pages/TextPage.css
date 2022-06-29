@@ -1,5 +1,5 @@
 #container {
-  height: -webkit-fill-available;
+  height: fit-content;
 }
 
 .header {
@@ -7,11 +7,13 @@
   margin-bottom: 15px;
 }
 
-.text {
+/* .text {
   height: 80%;
-}
+} */
 
 .TextPage {
   text-align: center;
   position: relative;
+  margin-top: 10px;
 }
+

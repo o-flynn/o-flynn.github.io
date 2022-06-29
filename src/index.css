@@ -9,9 +9,25 @@
 }
 
 body {
+  min-height: 100vh;
   margin: 0;
+  background-image: url('./Images/white-marble.jpg');
+  background-size: 400%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+#root, #container, .ms-Stack {
+  min-height: inherit;
+}
+
+.ms-Stack {
+  height: fit-content;
+}
+
+.Footer {
+  position: relative;
+  bottom: 0;
 }
 
 code {

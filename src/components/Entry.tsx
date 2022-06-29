@@ -30,9 +30,10 @@ export function Entry(props: EntryProps) {
                     <div className='img-container'><img src={require(`../Images/${content.imageName}`)} alt={content.imageAltText}></img></div>
                 </div>
             )}
-            <p style={props.fontStyles}>
-                <ReactMarkdown children={content.text}></ReactMarkdown>
-            </p>
+                <ReactMarkdown children={
+                    `**${content.title}**  \  
+                    ${content.text}`
+                }></ReactMarkdown>
         </div>
 
     if (content.link) {

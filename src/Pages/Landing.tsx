@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Stack, IStackStyles, StackItem } from '@fluentui/react';
-import whiteMarble from '../Images/white-marble.jpg';
+// import whiteMarble from '../Images/white-marble.jpg';
 
 import Header from '../components/Header';
 import EntryList from '../components/EntryList';
@@ -16,8 +16,8 @@ const stackStyles: Partial<IStackStyles> = {
   root: {
     margin: '0 auto',
     textAlign: 'center',
-    backgroundImage: `url(${whiteMarble})`,
-    backgroundSize: '400%',
+    // backgroundImage: `url(${whiteMarble})`,
+    // backgroundSize: '400%',
   },
 };
 
@@ -27,7 +27,7 @@ export const Landing: React.FunctionComponent = () => {
     <div>
       <Stack horizontalAlign="center" verticalFill styles={stackStyles}>
         <Stack.Item className='header'>
-          <Header height="98vh" sidesHeight="47%" isLandingPage={true}></Header>
+          <Header height="690px" sidesHeight="47%" isLandingPage={true}></Header>
         </Stack.Item>
         <StackItem className='summaries'>
           <EntryList entriesFile="landing-page" fontStyles={summaryFontStyles}></EntryList>

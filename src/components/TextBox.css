@@ -8,7 +8,6 @@
 
 .text-content {
     text-align: left;
-    
     color: rgb(65, 65, 65);
     font-size: 1.2em;
 }
@@ -20,4 +19,20 @@
     overflow: hidden;
     margin-right: 27.5px;
     margin: 15px;
+}
+
+@media screen and (max-width: 585px) {
+    .text-box-img-container {
+        float: unset;
+        max-height: 200px;
+        margin: 15px auto;
+    }
+
+    .text-box-img-container img {
+        max-height: inherit;
+    }
+
+    .text-content {
+        font-size: 1em;
+    }
 }

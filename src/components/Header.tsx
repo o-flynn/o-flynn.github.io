@@ -19,7 +19,7 @@ function Header(props: HeaderProps) {
     height: props.height,
   }
   const clipPathStyles: CSSProperties = {
-    clipPath: `polygon(50% 100%, 0 ${props.sidesHeight}, 0 0, 100% 0, 100% ${props.sidesHeight})`,
+    // clipPath: `polygon(50% 100%, 0 ${props.sidesHeight}, 0 0, 100% 0, 100% ${props.sidesHeight})`,
     height: 'inherit',
   }
   const pathname: string = useLocation().pathname;
@@ -30,7 +30,7 @@ function Header(props: HeaderProps) {
   };
 
   return (
-    <div className="Header" style={styles}>
+    <div className={`Header ${ props.isLandingPage ? 'landing-page' : ''}`} style={styles}>
       {!props.isLandingPage && (<div className='buttons-container'>
         <Link to='/'><button id='home' type='button' className='round-button'></button></Link>
         <div className='socials'>
@@ -47,7 +47,7 @@ function Header(props: HeaderProps) {
         {props.isLandingPage ? (
           <div className='landing-wrapper'>
             <div className='row-one'>
-                <img src={require('../Images/headshot.png')} alt="A picture of Olivia Flynn"></img>
+                <img src={require('../Images/headshot.png')} alt="Olivia Flynn's headshot"></img>
                 <div className='basic-info'>
                   <h1>OLIVIA A. FLYNN</h1>
                   <ul>
@@ -90,7 +90,7 @@ function Header(props: HeaderProps) {
           </div>
         </div>)
         }
-        {props.isLandingPage && <video id='video-background' muted loop autoPlay><source src='arial-trees.mp4' type='video/mp4' /></video>}
+        {props.isLandingPage && <video poster='../Images/arial-trees-still.png' id='video-background' muted loop autoPlay disablePictureInPicture><source src='arial-trees.mp4' type='video/mp4' /></video>}
       </div>
     </div>
   );

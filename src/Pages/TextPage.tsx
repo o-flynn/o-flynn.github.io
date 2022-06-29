@@ -1,6 +1,6 @@
 import React from 'react';
 import { Stack, FontWeights, IStackTokens, IStackStyles, ITextStyles, getPropsWithDefaults } from '@fluentui/react';
-import whiteMarble from '../Images/white-marble.jpg';
+// import whiteMarble from '../Images/white-marble.jpg';
 
 import Header from '../components/Header';
 import TextBox from '../components/TextBox';
@@ -11,8 +11,8 @@ const stackStyles: Partial<IStackStyles> = {
   root: {
     margin: '0 auto',
     textAlign: 'center',
-    backgroundImage: `url(${whiteMarble})`,
-    backgroundSize: '400%',
+    // backgroundImage: `url(${whiteMarble})`,
+    // backgroundSize: '400%',
   },
 };
 
@@ -25,7 +25,7 @@ function TextPage(props: TextPageProps) {
     <div id='container'>
       <Stack horizontalAlign="center" verticalFill styles={stackStyles}>
         <Stack.Item className='header'>
-          <Header height='18vh' sidesHeight='65%'></Header>
+          <Header height='125px' sidesHeight='65%'></Header>
         </Stack.Item>
         <Stack.Item className='text'><TextBox contentFile={props.contentJSON}></TextBox></Stack.Item>
       </Stack>

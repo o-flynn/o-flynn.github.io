@@ -1,8 +1,10 @@
 .Footer {
-    margin-bottom: -100%;
     padding-left: 4px;
     background-color: black;
     color: white;
     font-style: italic;
     text-align: justify;
+    font-size: x-small;
+    position: relative;
+    bottom: 0;
 }
