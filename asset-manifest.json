@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ac585002.css",
-    "main.js": "/static/js/main.2ec346b3.js",
+    "main.css": "/static/css/main.072a1456.css",
+    "main.js": "/static/js/main.74f8c427.js",
     "static/js/787.941f5817.chunk.js": "/static/js/787.941f5817.chunk.js",
     "static/media/headshot.png": "/static/media/headshot.3d732d6ccb136631f00b.png",
     "static/media/arial-trees-still.png": "/static/media/arial-trees-still.e1e3a94354783dd005da.png",
@@ -21,12 +21,12 @@
     "index.html": "/index.html",
     "static/media/icons8-linkedin-circled.svg": "/static/media/icons8-linkedin-circled.be91fbb860055627117e.svg",
     "static/media/icons8-linkedin-2.svg": "/static/media/icons8-linkedin-2.be99212199ce92d3e030.svg",
-    "main.ac585002.css.map": "/static/css/main.ac585002.css.map",
-    "main.2ec346b3.js.map": "/static/js/main.2ec346b3.js.map",
+    "main.072a1456.css.map": "/static/css/main.072a1456.css.map",
+    "main.74f8c427.js.map": "/static/js/main.74f8c427.js.map",
     "787.941f5817.chunk.js.map": "/static/js/787.941f5817.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ac585002.css",
-    "static/js/main.2ec346b3.js"
+    "static/css/main.072a1456.css",
+    "static/js/main.74f8c427.js"
   ]
 }
