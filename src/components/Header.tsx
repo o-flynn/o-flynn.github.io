@@ -90,7 +90,7 @@ function Header(props: HeaderProps) {
           </div>
         </div>)
         }
-        {props.isLandingPage && <video poster='../Images/arial-trees-still.png' id='video-background' muted loop autoPlay disablePictureInPicture><source src='arial-trees.mp4' type='video/mp4' /></video>}
+        {props.isLandingPage && <video poster='../Images/arial-trees-still.png' id='video-background' muted loop autoPlay disablePictureInPicture playsInline><source src='arial-trees.mp4' type='video/mp4' /></video>}
       </div>
     </div>
   );
