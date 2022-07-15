@@ -1,6 +1,5 @@
 import React from 'react';
 import { Stack, IStackStyles, StackItem, getPropsWithDefaults } from '@fluentui/react';
-// import whiteMarble from '../Images/white-marble.jpg';
 
 import Header from '../components/Header';
 import EntryList from '../components/EntryList';
@@ -16,8 +15,6 @@ const stackStyles: Partial<IStackStyles> = {
   root: {
     margin: '0 auto',
     textAlign: 'center',
-    // backgroundImage: `url(${whiteMarble})`,
-    // backgroundSize: '400%',
   },
 };
 
@@ -26,6 +23,9 @@ interface ListPageProps {
 }
 
 function ListPage(props: ListPageProps) {
+  const titles = require('../text/landing-page.json').entries;
+  const headerText = titles.find(
+    (entry: {id: string}) => entry.id === props.entryJSON)
 
   return (
     <div id='container'>
@@ -34,9 +34,9 @@ function ListPage(props: ListPageProps) {
           <Header height="125px" sidesHeight="65%"></Header>
         </Stack.Item>
         <Stack.Item className='head-text'>
-          <h1>Title</h1>
+          <h1>{headerText.title}</h1>
           <hr/>
-          <p>Subtitle/Blurb - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <p>{headerText.text}</p>
         </Stack.Item>
         <StackItem className='entries'>
           <EntryList entriesFile={props.entryJSON} fontStyles={summaryFontStyles}></EntryList>

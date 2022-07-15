@@ -1,0 +1,76 @@
+{
+    "entries": [
+        {
+            "id": "nlp",
+            "title": "Analyzing attention in online health forums",
+            "text": "After taking Professor Lu Xiao's natural language processing (NLP) class, I was asked to assist in her research on information sharing and digital humanities. The project began as a favor for another research team (scraping Reddit data for them) but then we decided to further analyze the collected data and ended up submitting a paper to iConference 2021. The paper explores post and comment features that correlate with popularity/interaction in the context of health subreddits.",
+            "imageName": "coding.webp",
+            "imageAltText": "an image of an image",
+            "imageRight": "",
+            "link": "https://doi.org/10.1007/978-3-030-71292-1_29"
+        },
+        {
+            "id": "bioinformatics",
+            "title": "Modeling chromatin accessibility over time",
+            "text": "The long-term goal of this project was to infer gene regulatory networks formed by various events, which would be helpful in medical research. I entered the research group at the beginning of the project, so I spent my final semester doing preliminary analysis of sample datasets similar to the one being generated as part of the group's collaboration with the biology department. The datasets showed levels of various proteins in the cell over time. My objective was to model chromatin accessibility, which is just one factor for the gene expression that fuels the regulatory networks.",
+            "imageName": "coding.webp",
+            "imageAltText": "an image of an image",
+            "imageRight": "",
+            "link": "../Resources/gene-accessibility-atac-seq.pdf"
+        },
+        {
+            "id": "hungarian-alg",
+            "title": "A better spectrum allocation algorithm",
+            "text": "To finish off my Honors degree, I assisted Dr. Biao Chen in his research on wireless communications. The topic of my project was the radio frequency spectrum, and how segments of it are allocated among many devices. I improved upon the generally used approach (sequential allocation) by fitting the problem of spectrum allocation into a fundamental optimization problem. Then, I adapted the solution algorithm to the context of our problem and ran it with some simulated allocation scenarios in order to compare it with sequential allocation. My algorithm was 25-35% more efficient in terms of data transmission volume (increasing with the channel:device ratio).",
+            "imageName": "coding.webp",
+            "imageAltText": "an image of an image",
+            "imageRight": "",
+            "link": "https://files.emailmeform.com/742180/mYolRcgI/Olivia%20A.%20Flynn%20Honors%20Thesis.pdf"
+        },
+        {
+            "id": "cusehacks",
+            "title": "Establishing CuseHacks at Syracuse University",
+            "text": "Cusehacks 2018 was the first ever hackathon at Syracuse University and I was looking to get more \"involved\" on campus at the time, so I joined the organizing effort. It wasn't until the next school year that I realized all of the organizers besides me and two others had graduated- and it was up to us to make sure CuseHacks continued on to be established as an annual event. We scrambled to get permissions from the school, book rooms, arrange meals/snacks, negotiate corporate sponsorships, plan workshops, and of course advertise the event. It was an intense year but in the end, CuseHacks lived to see another year.\nMy job was to reach out for sponsorships and run organizer meetings for the small group we had recruited. This was definitely out of my comfort zone at the time, but was critical to developing the sense of leadership and initiative that I have today. As my graduation date grew closer, I made sure to document as much as possible and formalize the organizer recruiting process to give CuseHacks the best chance of continuing after I was gone. Apparently, I was successful in this-- the other two leaders and I have all graduated now, but participation in CuseHacks is continuing to grow.",
+            "imageName": "coding.webp",
+            "imageAltText": "an image of an image",
+            "imageRight": "",
+            "link": "https://innovateorange.github.io/cusehacks/"
+        },
+        {
+            "id": "aoe-secretary",
+            "title": "Establishing e-voting in A.Ω.E. STEM sorority",
+            "text": "In my efforts to get more involved in campus activities and expand my network, I joined Alpha Omega Epsilon: a professional STEM sorority that brings together women across disciplines and grades. The thing I most enjoyed was meeting older students in the same major as me. Even though there were only two, I was happy to have some role models.Eventually I decided to run for an executive position and was elected as Secretary based on my organizational skills shown in the classroom and in planning CuseHacks.\nMy responsibilities were to take attendance and notes during our weekly chapter meetings, but my main initiative during the term was to implement e-voting. Previously, votes were conducted by a blind raise of hands that had to be counted by the President and VP. It took a very long time, causing vote-heavy meetings (e.g. elections) to be quite grueling. The solution was quite simple: create a few templates on Google forms for different types of voting situations. After pitching and demonstrating this method of e-voting to the rest of the executive board, it was adopted by the sorority.",
+            "imageName": "coding.webp",
+            "imageAltText": "an image of an image",
+            "imageRight": "",
+            "link": "https://aoepsln.wixsite.com/zeta"
+        },
+        {
+            "id": "ra",
+            "title": "Resident Advisor to the Engineering Learning Community",
+            "text": "During my first year at Syracuse University, I was a part of the Engineering Learning Community: several floors of a dorm building reserved for freshman engineering students. This is where I met many of my friends outside of my major, and definitely made group study easier. Once I learned how expensive housing was, I applied to be a Residential Advisor and was placed in the very same community. My work there went beyond enforcing dorm rules and handling issues between roommates. I did my best to be a resource, mentor, or friend to any resident that wanted it, suggesting clubs and campus services around the residents' interests, sharing my experience and strategies within computer science, and generally helping the newly independent students to \"adult\". Within the learning community, we also organized engineering-oriented activities, e.g. museum trips and documentary/movie viewing parties. However, I had some more interactive ones in mind, like a Women in STEM panel featuring professors and leaders of student organizations or \"lightning talks\" presented by research professors who were willing to let a freshman shadow or assist with their work. I was a very large proponent of increasing exposure of the student body to the research happening at the school. In my opinion, research is a wonderful and interesting way to get practical experience in between or in place of an internship, but the way to get there was not common knowledge in my college.",
+            "imageName": "coding.webp",
+            "imageAltText": "an image of an image",
+            "imageRight": "",
+            "link": ""
+        },
+        {
+            "id": "awards",
+            "title": "Academic honors and awards",
+            "text": "My philosophy is to always do my best inside and outside of the classroom, and this has been recognized across my collegiate career. First, I was admitted to the Honors College at my university and graduated with an Honors degree. During my freshman year, I was selected as a Donofrio Scholar along with 9 others in my grade, which guaranteed me an internship that summer. With a GPA of 3.99, I graduated *summa cum laude* and landed on the Dean's List every semester. Upon completion of my Bachelor's degree, I was awarded the Warren Semon in honor of the first Dean of the college, for \"establishing an exceptional scholastic record\". A year later when I finished my Master's degree, I was also awarded the title of \"Outstanding Graduate Student in Computer Science\" by my department.",
+            "imageName": "coding.webp",
+            "imageAltText": "an image of an image",
+            "imageRight": "",
+            "link": ""
+        },
+        {
+            "id": "teaching",
+            "title": "Learning through teaching",
+            "text": "Along my college journey, I had the opportunity to teach and advise so many friends and younger students. I spent one semester as a TA for our college's intro coding course but beyond that, I simply liked the feeling of helping others understand concepts that they were struggling with or missed out on in class. I was very conscious of the way I explained things, because I really did not want to be patronizing, but also didn't want to assume that they understood every single background concept needed for the topic at hand- sometimes there is just one missing piece needed to complete the picture. This definitely honed my interpersonal skills and ability to articulate my thoughts on complex subjects, but also made me realize that I enjoy sharing knowledge through teaching.",
+            "imageName": "coding.webp",
+            "imageAltText": "an image of an image",
+            "imageRight": "",
+            "link": ""
+        }
+    ]
+}

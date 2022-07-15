@@ -16,8 +16,6 @@ const stackStyles: Partial<IStackStyles> = {
   root: {
     margin: '0 auto',
     textAlign: 'center',
-    // backgroundImage: `url(${whiteMarble})`,
-    // backgroundSize: '400%',
   },
 };
 

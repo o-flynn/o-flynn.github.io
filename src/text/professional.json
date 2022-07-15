@@ -1,0 +1,84 @@
+{
+    "entries": [
+        {
+            "id": "dynamic-welcome",
+            "title": "Fully customizable dynamic Welcome panel",
+            "timeFrame": "",
+            "text": "We refreshed the look of the Welcome tool to include a spotlight on helpful documentation links in addition to the \"What's New\" announcements, but my contribution here actually has a larger impact for the internal team. I designed a JSON structure to be fetched from our cloud storage and used to render the Welcome page content, making every link and title customizable in real time, with no code check-ins necessary. After learning what the process for release notes was before, it really makes me happy to be able to eliminate so much overhead for both PMs and devs on our team.",
+            "imageName": "coding.webp",
+            "imageAltText": "an image of an image",
+            "imageRight": "",
+            "link": "https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/welcome/welcome-tool"
+        },
+        {
+            "id": "issues-filtering",
+            "title": "Filtering toolbar for the Issues panel",
+            "timeFrame": "",
+            "text": "Clutter is a pain point that is frequently reported by users of the Issues panel, which analyzes the webpage and surfaces hints around accessibility, security, and more. Since there were too many hints showing, we gave users the ability to filter by issue severity and the browser that that the issue applies to. I implemented both the UI and underlying mechanisms for this feature. That was an interesting challenge because it involved programmatically updating a config object used to generate hints for particular browsers.",
+            "imageName": "coding.webp",
+            "imageAltText": "an image of an image",
+            "imageRight": "",
+            "link": "https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/issues/#filter-issues"
+        },
+        {
+            "id": "focus-mode",
+            "title": "Focus Mode: A radically user-friendly UI",
+            "timeFrame": "",
+            "text": "Focus Mode reduces overwhelm and streamlines the tools by replacing the main row of tabs with a compact toolbar. This activity bar features distinctive icons and a customizable orientation. Though the redesign was a large team effort, my main contribution was the mechanism for adding and removing tools from the activity bar. The most challenging part of this was accounting for the tab overflow behavior when the window is resized.",
+            "imageName": "coding.webp",
+            "imageAltText": "an image of an image",
+            "imageRight": "",
+            "link": "https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/experimental-features/focus-mode"
+        },
+        {
+            "id": "msedge-vsce",
+            "title": "Edge DevTools for VSCode",
+            "timeFrame": "",
+            "text": "This VSCode extension allows developers to render, test, and inspect their web pages, all without leaving their editor. When I was assigned to work on the extension it was not much more than an MVP from an internal hackathon, but I was happy to give it some polish. I built out a \"getting started\" workflow with simple instructions on usage and configuration, and a user workflow for connecting a VSCode project to the in-browser DevTools.",
+            "imageName": "coding.webp",
+            "imageAltText": "an image of an image",
+            "imageRight": "",
+            "link": "https://blogs.windows.com/msedgedev/2021/10/21/improved-authoring-debugging-devtools-visual-studio-code/"
+        },
+        {
+            "id": "source-order-viewer",
+            "title": "Source order viewer for screen reader accessibility",
+            "timeFrame": "May-August 2020",
+            "text": "Back for my second internship with Microsoft Edge DevTools, I was tasked with implementing a top ask from the [Web We Want 2019 session](https://adrianroselli.com/2019/10/smashing-web-we-want-video-pitch.html): a way to see whether your CSS has placed elements in an unexpected order with respect to the DOM tree. That is, an unexpected order when read out by a screen reader. This order was indicated by overlays on top of the browser content, which required me to contribute to the Chromium DevTools Protocol (the core back end to the DevTools). After it all, I also gained a much greater understanding around the importance of accessibility standards.",
+            "imageName": "coding.webp",
+            "imageAltText": "an image of an image",
+            "imageRight": "",
+            "link": "https://blogs.windows.com/msedgedev/2020/09/15/source-order-viewer-edge-devtools/"
+        },
+        {
+            "id": "conditinal-breakpoints",
+            "title": "Breakpoint customization in Microsoft Edge DevTools",
+            "timeFrame": "May-August 2019",
+            "text": "Did you know that there are several types of breakpoints which can streamline your debugging experience? I contibuted 4 types to the open source Chromium project. Conditional breakpoints, log points, XHR breakpoints, and DOM change breakpoints all serve to minimize unnecessary breaks while debugging. Through this project, I learned more about the software development lifecycle, writing my first techinical spec and going through formalized code review and compliance processes. Working within such a large codebase was also a great lesson on digesting and understanding existing systems.",
+            "imageName": "coding.webp",
+            "imageAltText": "an image of an image",
+            "imageRight": "",
+            "link": "https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/javascript/breakpoints"
+        },
+        {
+            "id": "fidelity",
+            "title": "Server health check dashboard at Fidelity Investments",
+            "timeFrame": "May-August 2018",
+            "text": "Another intern and I redesigned and implemented the UI of an Angular 2 health check application for the company's servers. This included a high-level dashboard as well as the ability to drill down and see the status of specific locations, clusters and machines. This was my first time collaborating on a single project, I it was helpful to learn about the cadence of Agile. I also enjoyed using my prior experience to teach my intern buddy about Angular.",
+            "imageName": "coding.webp",
+            "imageAltText": "an image of an image",
+            "imageRight": "",
+            "link": ""
+        },
+        {
+            "id": "upstate-interactive",
+            "title": "Web app development at Upstate Interactive Consulting",
+            "timeFrame": "July-October 2017",
+            "text": "During this internship, I took my initial step into front end development by learning my first framework: Angular 2. Working within the framework, I fixed bugs on the Upstate Interactive website and contributed to an internal content management system by adapting the Material Design system to a functional spec. Through this, I also learned about important concepts in web development like asynchronous operations, unit testing, and state management (via Redux). After my internship, I was asked to stay on the team as a contractor",
+            "imageName": "coding.webp",
+            "imageAltText": "an image of an image",
+            "imageRight": "",
+            "link": "https://medium.com/upstate-interactive/mocking-providers-and-http-responses-dc10674429cb"
+        }
+    ]
+}

@@ -23,8 +23,8 @@ ReactDOM.render(
   <HashRouter>
     <Routes>
       <Route path="/" element={<Landing />} />
-      <Route path="professional" element={<ListPage entryJSON='work'/>} />
-      <Route path="academic" element={<ListPage entryJSON='work'/>} />
+      <Route path="professional" element={<ListPage entryJSON='professional'/>} />
+      <Route path="academic" element={<ListPage entryJSON='academic'/>} />
       <Route path="personal" element={<TextPage contentJSON='personal'/>} />
     </Routes>
   </HashRouter>,

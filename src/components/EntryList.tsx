@@ -1,7 +1,6 @@
-import React, { CSSProperties, FC } from 'react';
-import { FontSizes, Stack } from '@fluentui/react';
+import { CSSProperties } from 'react';
+import { Stack } from '@fluentui/react';
 
-import { ENTRY_LISTS } from '../text/entryLists';
 import { Entry, EntryContent } from './Entry';
 import './EntryList.css';
 

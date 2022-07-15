@@ -37,7 +37,7 @@ export function Entry(props: EntryProps) {
         </div>
 
     if (content.link) {
-        return (<Link to={content.link} className='entry-link'>{entryHTML}</Link>);
+        return (<a href={content.link} className='entry-link' target='_blank'>{entryHTML}</a>);
     } else {
         return (entryHTML);
     }
