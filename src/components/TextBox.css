@@ -12,13 +12,14 @@
     font-size: 1.2em;
 }
 
-.text-box-img-container {
+#textBoxContainer img {
     float: left;
     width: 250px;
     height: 300px;
     overflow: hidden;
     margin-right: 27.5px;
     margin: 15px;
+    object-fit: cover;
 }
 
 @media screen and (max-width: 585px) {

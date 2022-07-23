@@ -27,7 +27,7 @@ export function Entry(props: EntryProps) {
         <div className='container'>
             {!!content.imageName && (
                 <div className='img-frame' style={content.imageRight ? {float: 'right'} : {}}>
-                    <div className='img-container'><img src={require(`../Images/${content.imageName}`)} alt={content.imageAltText}></img></div>
+                    <img src={require(`../Images/${content.imageName}`)} alt={content.imageAltText}></img>
                 </div>
             )}
                 <ReactMarkdown children={

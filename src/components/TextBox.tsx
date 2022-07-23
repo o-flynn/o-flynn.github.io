@@ -18,7 +18,7 @@ function TextBox(props: TextBoxProps) {
     <div id='textBoxContainer'>
       <div className="TextBox">
         {!!content.imageName && (
-                <div className='text-box-img-container'><img src={require(`../Images/${content.imageName}`)} alt={content.altText}></img></div>
+                <img src={require(`../Images/${content.imageName}`)} alt={content.altText}></img>
         )}
         {!!content.title && (<h1>{content.title}</h1>)}
         <div className='text-content'><ReactMarkdown children={content.text}></ReactMarkdown></div>

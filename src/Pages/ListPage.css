@@ -6,10 +6,15 @@
   width: 100%;
 }
 
+.head-text, .entries {
+  background: #ffffff8c;
+  padding: 0px 24px;
+  border-radius: 6px;
+}
+
 .head-text {
   width: 80%;
   text-align: left;
-  
 }
 
 .head-text h1 {

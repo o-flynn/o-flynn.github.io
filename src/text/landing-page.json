@@ -4,16 +4,16 @@
             "id": "professional",
             "title": "Professional experience in Software Engineering",
             "text": "My work currently centers around front end development-- both web apps and typescript apps without a mainstream framework. I enjoy front end development because, beyond the satisfaction of making something that looks pretty, you really need to get into the head of the customer in order to create an effective and intuitive interface. This is a very interesting exercise to me because it relates to my broader interest in psychology and cognition.",
-            "imageName": "coding.webp",
+            "imageName": "ux-design-2.png",
             "imageAltText": "an image of an image",
             "imageRight": "",
             "link": "/professional"
         },
         {
             "id": "academic",
-            "title": "Research and collegiate projects ",
+            "title": "Research and collegiate projects",
             "text": "My career in computer science started at Syracuse University, where I obtained Bachelor and Master of Science degrees in Computer Science. During my time there, I  participated in activities outside the classroom that exercised both my technical and interpersonal skills. These opportunities helped build my confidence and enjoyment of teaching, leadership, and research, giving me an overall greater sense of agency that I am grateful for. My current research interests include human-computer interaction, bioinformatics, natural language processing, artificial emotional intelligence, and augmented reality.",
-            "imageName": "coding.webp",
+            "imageName": "su-emblem.jpeg",
             "imageAltText": "an image of an image",
             "imageRight": "true",
             "link": "/academic"
@@ -22,7 +22,7 @@
             "id": "personal",
             "title": "Outside of programming...",
             "text": "I am a cognitive science enthusiast, amateur musician, and graphic designer. Having grown up in Portland, OR and now living in Seattle, WA, I feel at home in the Pacific Northwest. I won't claim to be the most outdoorsy person, but I do love the beautiful forests, rocky beaches, and temperate climate.",
-            "imageName": "",
+            "imageName": "music-2.png",
             "imageAltText": "an image of an image",
             "imageRight": "",
             "link": "/personal"
