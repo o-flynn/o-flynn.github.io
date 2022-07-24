@@ -12,6 +12,17 @@
     font-size: 1.2em;
 }
 
+.text-content p a {
+    font-weight: bold;
+    color: black;
+}
+
+.text-content p a:active {
+    font-weight: bold;
+    color: white;
+    background-color: black;
+}
+
 #textBoxContainer img {
     float: left;
     width: 250px;

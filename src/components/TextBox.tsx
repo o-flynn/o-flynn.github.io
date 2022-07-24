@@ -21,7 +21,11 @@ function TextBox(props: TextBoxProps) {
                 <img src={require(`../Images/${content.imageName}`)} alt={content.altText}></img>
         )}
         {!!content.title && (<h1>{content.title}</h1>)}
-        <div className='text-content'><ReactMarkdown children={content.text}></ReactMarkdown></div>
+        <div className='text-content'>
+          <ReactMarkdown
+            linkTarget='_blank'
+            children={content.text}></ReactMarkdown>
+        </div>
       </div>
     </div>
   );

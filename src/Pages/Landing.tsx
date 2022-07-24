@@ -1,6 +1,5 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Stack, IStackStyles, StackItem } from '@fluentui/react';
-// import whiteMarble from '../Images/white-marble.jpg';
 
 import Header from '../components/Header';
 import EntryList from '../components/EntryList';

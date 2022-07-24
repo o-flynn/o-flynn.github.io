@@ -3,27 +3,27 @@
         {
             "id": "professional",
             "title": "Professional experience in Software Engineering",
-            "text": "My work currently centers around front end development-- both web apps and typescript apps without a mainstream framework. I enjoy front end development because, beyond the satisfaction of making something that looks pretty, you really need to get into the head of the customer in order to create an effective and intuitive interface. This is a very interesting exercise to me because it relates to my broader interest in psychology and cognition.",
+            "text": "My industry experience has centered around front end web development, primarily using TypeScript both within and outside of  web app frameworks. The relationship between the front end and overall UX of a product has been my favorite aspect of this work. Beyond the satisfaction of making something that's visually appealing, I especially enjoy the exercise of getting into the user's head. It's an important step in creating an effective and intuitive interface and ties into my broader interests of psychology, cognition, and design.",
             "imageName": "ux-design-2.png",
-            "imageAltText": "an image of an image",
+            "imageAltText": "A venn diagram showing areas of UX: technology, user needs, and business goals",
             "imageRight": "",
             "link": "/professional"
         },
         {
             "id": "academic",
             "title": "Research and collegiate projects",
-            "text": "My career in computer science started at Syracuse University, where I obtained Bachelor and Master of Science degrees in Computer Science. During my time there, I  participated in activities outside the classroom that exercised both my technical and interpersonal skills. These opportunities helped build my confidence and enjoyment of teaching, leadership, and research, giving me an overall greater sense of agency that I am grateful for. My current research interests include human-computer interaction, bioinformatics, natural language processing, artificial emotional intelligence, and augmented reality.",
+            "text": "My career in computer science began at Syracuse University, where I obtained Bachelors and Masters degrees in CS. During my time there, I  participated in activities outside of the classroom that exercised both my technical and interpersonal skills. These opportunities contributed to the confidence and enjoyment that I have today in teaching, leadership, and research. My research interests include human-computer interaction, bioinformatics, natural language processing, artificial emotional intelligence, and augmented reality. I'm happy that through these activities, I have gained a greater sense of agency to pursue my interests outside of work.",
             "imageName": "su-emblem.jpeg",
-            "imageAltText": "an image of an image",
+            "imageAltText": "Syracuse university emblem",
             "imageRight": "true",
             "link": "/academic"
         },
         {
             "id": "personal",
             "title": "Outside of programming...",
-            "text": "I am a cognitive science enthusiast, amateur musician, and graphic designer. Having grown up in Portland, OR and now living in Seattle, WA, I feel at home in the Pacific Northwest. I won't claim to be the most outdoorsy person, but I do love the beautiful forests, rocky beaches, and temperate climate.",
+            "text": "I am an amateur musician, cognitive science enthusiast, and graphic design dabbler. Having grown up in Portland, OR and now living in Seattle, I feel at home in the Pacific Northwest. I won't claim to be an outdoorsy person, but I certainly love the wealth of nature that surrounds me here-- the forests and beaches are really pleasant and interesting to explore, with tons of fascinating creatures and plants to learn about!",
             "imageName": "music-2.png",
-            "imageAltText": "an image of an image",
+            "imageAltText": "Olivia Flynn performing with Cottage Corpse at the Blue Moon Tavern",
             "imageRight": "",
             "link": "/personal"
         }

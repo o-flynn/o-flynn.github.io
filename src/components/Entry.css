@@ -32,7 +32,11 @@ div.container img {
     object-fit: contain;
 }
 
-div.container p {
+div.container h2 {
+    margin-bottom: -10px;
+}
+
+div.container p, .container h2 {
     margin: 15px 25px;
     text-align: left;
     color: rgb(65, 65, 65);

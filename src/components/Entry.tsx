@@ -30,14 +30,27 @@ export function Entry(props: EntryProps) {
                     <img src={require(`../Images/${content.imageName}`)} alt={content.imageAltText}></img>
                 </div>
             )}
+                <h2>{content.title}</h2>
                 <ReactMarkdown children={
-                    `**${content.title}**  \  
-                    ${content.text}`
+                    `${content.text}`
                 }></ReactMarkdown>
         </div>
 
     if (content.link) {
-        return (<a href={content.link} className='entry-link' target='_blank'>{entryHTML}</a>);
+        if (window.location.hash === '#/') {
+            return (<Link 
+                to={content.link}
+                className='entry-link'>
+                    {entryHTML}
+                </Link>)
+        } else {
+            return (<a 
+                href={content.link}
+                className='entry-link'
+                target='_blank'>
+                    {entryHTML}
+                </a>);
+        }
     } else {
         return (entryHTML);
     }

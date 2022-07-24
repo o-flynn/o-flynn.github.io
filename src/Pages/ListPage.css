@@ -30,6 +30,11 @@
 
 .summaries, .entries {
   width: 80%;
+  font-size: 16px;
+}
+
+.entries h2 {
+  font-size: larger;
 }
 
 @media screen and (max-width: 585px) {
